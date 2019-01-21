@@ -220,3 +220,20 @@ Al aplicar un stash este no se elimina, es buena práctica eliminarlo.
 
 Si estás trabajando en una rama, pero de repente notas que hiciste un cambio en la rama que no debías, para esto podemos usar cherry pick. Este comando nos puede salvar la vida, ya que nos permite sacar cambios específicos de una rama y mezclarlos en otra.
 
+* **git cherry pick [sha1]** mover el commit [sha1] de otro branch al branch actual
+
+#### GitHub
+
+* **git clone [ruta]** trae el repositorio a la computadora
+* **fork** hace una copia de un repositorio externo a nuestra cuenta
+* **ssh-keygen -t rsa -b 4096 -C "correo@ejemploc.com"** crea una llave ssh. El correo debe de ser el mismo que se encuentra en Github
+* **git remote add [nombre] [ruta]** conecta un repositorio remoto con uno local. Por defecto el nombre es origin
+* **git remote -v** lista las conexiones remota
+* **git remote remove [nombre]** remueve una conexión remota
+* **git fetch [nombre] [branch]** traer. Solo los trae pero no lo mezcla
+* **git merge [origin/master] --allow-unrelated-histories** hace un merge del fetch con el repositorio local
+* **git pull [origin] [branch]** hace un fetch mas merge
+* **git push [origin] [master]** envia al repositorio local al remoto
+--tags enviar los tags
+* **git push --all origin** push a todos los branch y tags
+

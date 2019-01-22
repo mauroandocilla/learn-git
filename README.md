@@ -218,11 +218,12 @@ Al aplicar un stash este no se elimina, es buena práctica eliminarlo.
 
 ## Cherry pick eligiendo commits selectivamente
 
-Si estás trabajando en una rama, pero de repente notas que hiciste un cambio en la rama que no debías, para esto podemos usar cherry pick. Este comando nos puede salvar la vida, ya que nos permite sacar cambios específicos de una rama y mezclarlos en otra.
+Si estás trabajando en una rama, pero de repente notas que hiciste un cambio en la rama que no debías, para esto podemos usar cherry-pick. Este comando nos puede salvar la vida, ya que nos permite sacar cambios específicos de una rama y mezclarlos en otra.
 
-* **git cherry pick [sha1]** mover el commit [sha1] de otro branch al branch actual
+* **git cherry-pick [sha1]** mover el commit [sha1] de otro branch al branch actual
 
-#### GitHub
+
+## GitHub
 
 * **git clone [ruta]** trae el repositorio a la computadora
 * **fork** hace una copia de un repositorio externo a nuestra cuenta
